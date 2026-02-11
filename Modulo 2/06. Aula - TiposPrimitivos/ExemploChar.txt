@@ -1,0 +1,11 @@
+public class ExemploChar {
+  
+  public static void main (String [] args) {
+
+    // O tipo char, só recebe um único caractere, e fica declarado entre aspas simples ''.
+    
+    char inicialDoNome = 'I';
+
+    System.out.println("inicialDoNome"); 
+  }
+}

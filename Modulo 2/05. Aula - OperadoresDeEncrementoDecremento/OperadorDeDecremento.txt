@@ -1,0 +1,10 @@
+public class OperadorDeDecremento{
+  
+  public static void main (String [] args){
+   int limiteTentativasLogin =10;
+
+   limiteTentativasLogin = limiteTentativasLogin --;
+
+   System.out.println("Limite de Tentativas de login: " +limiteTentativasLogin );
+  }
+}

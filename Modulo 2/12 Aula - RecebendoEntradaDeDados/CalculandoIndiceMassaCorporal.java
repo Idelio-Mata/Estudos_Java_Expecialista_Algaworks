@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class CalculandoIndiceMassaCorporal {
+
+  public static void main (String [] a) {
+    Scanner entrada = new Scanner (System.in);
+  
+    System.out.print("Digite o seu nome:");
+    String nome = entrada.nextLine();
+
+    System.out.print("Digite o seu peso:");
+    int peso = entrada.nextInt();
+   
+    System.out.print("Digite a sua altura:");
+    double altura = entrada.nextDouble();
+    
+    double imc = peso / (altura * altura);
+
+    System.out.printf("IMC de %s: %.2f%n", nome, imc);
+  
+   /* 
+     O nextLine sempre deve ser o primeiro entre os metodos, pois ele permite a leitura da tecla enter como de linha valida 
+     e depois e aleitura do proximo método.
+
+    O nextInt ou ect, não lê linhas vazias.  Se o nextInt vier antes do nextLine o nextLine não será processado, pois ele não
+    lê o enter como nova instrução.
+    
+    Sempre que quisermos usar o nextLine entre outros metodos, devemos antecedelo por entrada.nextLine();
+     
+   
+   */
+
+  }
+}

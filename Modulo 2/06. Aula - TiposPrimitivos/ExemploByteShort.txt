@@ -1,0 +1,21 @@
+public class ExemploByteShort {
+  
+  public static void main (String [] args) {
+
+    /* O tipo Byte e Short são numeros inteiros, com tamanhos menores. 
+       Para calcular o tamanho de alocação de cada um deles, basta olhar a formula da tabela.   
+      
+       byte  = 8 Bits  [ menorValor = (-2)^7 = ] [ maiorValor =(2^7) - 1 = 128 ]
+       short = 16 Bits [ menorValor =(-2)^15  ][ maiorValor =(2^15) - 1 ]    
+    */
+    
+    
+    // Exemplo abaixo, não significa que idade é byte.
+    
+    byte idade = 129;
+    System.out.println(idade); // Não compila, porque excede o limite de alocação para o tipo byte. 
+ 
+    byte idade2 = 128; 
+    System.out.println(idade2); // COmpila porque está dentro do limite de alocação; 
+  }
+}

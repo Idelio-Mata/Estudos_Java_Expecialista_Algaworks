@@ -1,0 +1,14 @@
+public class PromocaoAritmeticaLongInt {
+
+  public static void main (String [] args ) {
+    
+    long x = 10;
+    float y = 9.34f;
+    long z = x * y; N compila, a menos que se faca um cast ou se mude o tipo para long.
+    
+    long z = x * y;
+    
+    System.out.println(z);
+    
+   }
+}

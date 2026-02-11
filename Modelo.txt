@@ -1,0 +1,17 @@
+Depois de ter trabalhado com java por 3 anos, estou fazendo esse curso porque já me incomoda
+ter dificuldades básicas e travar por assuntos fundamentais que devia ter dado a devida atenção na
+faculdade. Estou fazendo esse curso Java Para resetar minha carreira.
+ 
+Java_Expecialista_AlgaWorks : Duração : 84h 22min
+-----------------------------------------------------------------------------------
+
+Proximos Passos
+
+1. Especialista Spring REST       : AlgaWorks : Duração : 81h 59min
+2. Spring Framework Expert        : AlgaWorks : Duração : 47h 46min
+3. TDD Essentiais                 : AlgaWorks : Duração : 4h 20min
+4. Principais Design Patterns     : AlgaWorks : Duração : 3h 52min
+5. Kafka Mensageria e Spring Boot : AlgaWorks : Duração : 5h 51min
+--------------------------------------------------------------------------------
+6. Descomplicando o Docker Linux Tips
+

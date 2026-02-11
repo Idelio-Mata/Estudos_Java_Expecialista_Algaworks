@@ -1,0 +1,13 @@
+public class ExemploString {
+
+  public class static void main (String [] args ) {
+    System.out.print("Exemplo Sting");
+    
+    int x = 10;
+    int y = 5;
+    int z = x * y;
+
+    System.out.println(z);
+    
+   }
+}

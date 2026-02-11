@@ -1,0 +1,13 @@
+public class ExemploIntLong {
+ 
+  public static void main (String [] args ) {
+   
+   int populacaoMocambicana = 699_097;
+   int populacaoMocambicana2 = 2_147_483_648;
+  }
+} 
+
+
+
+
+//Minima = -2^63 ; Maxima (2^63)-1 = 9223372036854775807
